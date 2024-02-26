@@ -15,7 +15,7 @@ const Hero = () => {
   const randomMovie = store.popularMovies[i];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 md:max-h-[300px]">
+    <div className="grid gap-7 grid-cols-1 md:grid-cols-2 md:max-h-[300px]">
       {!randomMovie ? (
         <Loader /> // buraya skeleton ekleyebilirsin
       ) : (
